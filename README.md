@@ -18,4 +18,4 @@ The aim of this tool is to automate some the deployment process of laravel apps.
 
 ## Components needed
 1. Some templating engine for creating bash/nginx/caddy files
-2. ...
+2. Some config file and a generator to create config file.
