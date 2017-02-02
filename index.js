@@ -13,8 +13,7 @@ var git         = require('simple-git')();
 var touch       = require('touch');
 var fs          = require('fs');
 
-var node_ssh = require('node-ssh')
-var ssh = new node_ssh()
+
 
 console.log(
   chalk.yellow(
@@ -75,17 +74,17 @@ function getGithubCredentials(callback) {
 
 
 
-// ssh.connect({
-//   host: '198.211.124.95',
-//   username: 'makkaraperuna',
-//   privateKey: '/home/jonathan/.ssh/id_rsa'
-// }).then(function() {
-//   // Local, Remote 
-// 	ssh.exec('pwd').then(function(result) {
-//     console.log('STDOUT: ' + result)
-//     ssh.dispose();
-//   })
-// })
+ssh.connect({
+  host: '198.211.124.95',
+  username: 'makkaraperuna',
+  privateKey: '/home/jonathan/.ssh/id_rsa'
+}).then(function() {
+  // Local, Remote
+	ssh.exec('pwd').then(function(result) {
+    console.log('STDOUT: ' + result)
+    ssh.dispose();
+  })
+})
 function getGithubToken(callback) {
   var prefs = new Preferences('ginit');
 
