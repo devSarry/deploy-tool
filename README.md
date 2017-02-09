@@ -4,8 +4,8 @@ The aim of this tool is to automate some the deployment process of laravel apps.
 
 ## Big TODO
 - [x] Mechanisim to connect over ssh to server
-- [ ] Check if server has been provisioned
-- [ ] Run a provision script if need be
+- [x] Check if server has been provisioned
+- [x] Run a provision script if need be
 - [ ] Create a project folder (/var/project/project_name)
 - [ ] initilize it at a bare repo
 - [ ] craete post recieve scripts and make them executable (chmod +x)

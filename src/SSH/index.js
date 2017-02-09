@@ -27,30 +27,86 @@ class SSH {
 
 
     provision(filePath) {
-        this.checkIfProvisioned().then((provisioned) => {
-            console.log('server has been provisoned')
-        }).catch(notProvisioned => {
-            ssh.putFile(filePath, '/var/deployer/preCleaned')
-                .then(result => {
-                    ssh.execCommand("sed 's/^M$//' preCleaned > provision.sh", {cwd: '/var/deployer', stream: 'stdout'})
-                        .then(result => {
-                            ErrorHandler.instance.info(result);
-                        })
-                        .catch(error => {
-                            ErrorHandler.instance.error('Something went wrong with provisioning \n' + error)
-                        })
-                })
-                .catch(error => {
-                    ErrorHandler.instance.error('Provision file could not be written to server ' + error)
-                })
-            ssh.execCommand('bash provision.sh', {cwd: '/var/deployer', stream: 'stdout'})
-                .then( result => {
-                    ErrorHandler.instance.info(result)
-                })
-                .catch( error => {
+        ssh.exec('pwd').then(function (result) {
+            ErrorHandler.instance.info('STDOUT SHOUDS: ' + result);
+            //resolove(ssh)
+        });
+        ssh.exec('pwd').then(function (result) {
+            ErrorHandler.instance.info('STDOUT PENIS: ' + result);
+            //resolove(ssh)
+        });
+        ssh.getFile('/home/' + this.user + '/.provisioned', isProvisionedPath)
+            .then(contents => {
+                ErrorHandler.instance.info('Server has been previously provisioned' + contents);
+                files.removeFile(isProvisionedPath);
+                resolve(true);
+            })
+            .catch(notProvisionedError => {
+                ErrorHandler.instance.error('Server has not been provisioned ' + notProvisionedError);
+                reject(false);
+            })
 
-                })
+        ssh.exec('pwds').then(function (result) {
+            ErrorHandler.instance.info('STDOUasdasdsadT: ' + result);
+            //resolove(ssh)
         })
+            .catch(e=>{
+                ErrorHandler.instance.error('bad command', e)
+        })
+
+        ssh.putFile(filePath, '/var/deployer/preCleaned')
+            .then(result => {
+                ssh.execCommand("sed -e 's/\\r//g' preCleaned > provision121.sh", {cwd: '/var/deployer', stream: 'stdout'})
+                    .then(result => {
+                        ErrorHandler.instance.info(result , 'dasdasdasdasdasds');
+                        ssh.exec('cd /var/deployer && screen -S bash provision121.sh')
+                            .then( result => {
+                                console.log('whats the fuxc1')
+                                console.log(result.stdout)
+                                ErrorHandler.instance.info(result)
+                            })
+                            .catch(e => {
+                                console.log('whats the fuxc2')
+                                ErrorHandler.instance.info(e)
+                            })
+
+                    })
+                    .catch(error => {
+                        ErrorHandler.instance.error('Something went wrong with provisioning \n' + error)
+                    })
+            })
+            .catch(error => {
+                ErrorHandler.instance.error('Provision file could not be written to server ' + error)
+            })
+
+
+
+
+        //
+        // this.checkIfProvisioned().then((provisioned) => {
+        //     console.log('server has been provisoned')
+        // }).catch(notProvisioned => {
+        //     ssh.putFile(filePath, '/var/deployer/preCleaned')
+        //         .then(result => {
+        //             ssh.execCommand("sed 's/^M$//' preCleaned > provision.sh", {cwd: '/var/deployer', stream: 'stdout'})
+        //                 .then(result => {
+        //                     ErrorHandler.instance.info(result);
+        //                 })
+        //                 .catch(error => {
+        //                     ErrorHandler.instance.error('Something went wrong with provisioning \n' + error)
+        //                 })
+        //         })
+        //         .catch(error => {
+        //             ErrorHandler.instance.error('Provision file could not be written to server ' + error)
+        //         })
+        //     ssh.execCommand('bash provision.sh', {cwd: '/var/deployer', stream: 'stdout'})
+        //         .then( result => {
+        //             ErrorHandler.instance.info(result)
+        //         })
+        //         .catch( error => {
+        //
+        //         })
+        // })
 
         /**/
 
@@ -107,7 +163,6 @@ class SSH {
                     reject(false);
                 })
         })
-
     }
 
     get isConnection() {
