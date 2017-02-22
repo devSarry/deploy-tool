@@ -1,8 +1,6 @@
 var fs = require('fs');
 var path = require('path');
-var ErrorHandler = require('../ErrorHandler')
 
-const _Log = ErrorHandler.instance;
 
 
 module.exports = {
@@ -28,8 +26,6 @@ module.exports = {
         try {
             return fs.unlinkSync(filePath)
         } catch (error) {
-            _Log.error(error);
-            _Log.error('File could removed');
             return false
         }
     }

@@ -3,6 +3,7 @@ const singletonEnforcer = Symbol();
 
 import files from '../lib/files'
 
+
 var Log = require('log')
     , fs = require('fs')
     , stream = fs.createWriteStream(files.getCurrentDirectoryBase() + '/../file.log', { flags: 'a' })
