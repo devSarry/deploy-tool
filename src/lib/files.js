@@ -8,6 +8,9 @@ module.exports = {
         return path.basename(process.cwd());
     },
 
+    getCurrentWorkingDirectory: function () {
+        return process.cwd() + '/';
+    },
     directoryExists: function (filePath) {
         try {
             return fs.statSync(filePath).isDirectory();

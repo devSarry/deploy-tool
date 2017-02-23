@@ -29,6 +29,7 @@
     "github": "^2.1.0",
     "inquirer": "^1.1.0",
     "lodash": "^4.13.1",
+    "log": "^1.4.0",
     "minimist": "^1.2.0",
     "node-readme": "^0.1.8",
     "node-ssh": "^4.0.1",
