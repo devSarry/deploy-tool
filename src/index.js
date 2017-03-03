@@ -32,7 +32,7 @@ var questions = [
 program.command( 'init')
     .description('generate template files for provisioning and configuring your server')
     .action(function () {
-        console.log('generating files ...')
+        console.log('generating files ...');
         inquirer.prompt(questions).then( answers => {
             console.log('\nresponse:');
             console.log(JSON.stringify(answers,null, '  '))

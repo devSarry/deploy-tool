@@ -37,3 +37,14 @@ echo "Bringing Application Online"
 php artisan up
 
 echo "Deployment finished!"
+
+
+
+cd /home/forge/salon.makkaraperuna.com
+git pull origin master
+composer install --no-interaction --prefer-dist --optimize-autoloader
+
+if [ -f artisan ]
+then
+    php artisan migrate --force
+fi

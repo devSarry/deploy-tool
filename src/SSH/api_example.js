@@ -22,7 +22,7 @@ import SSH2 from './SSH/ssh-exec'
  * */
 
 
-new SSH2('root', '188.166.85.6', 'C:/Users/Descartes/.ssh/id_rsa')
+new SSH2('root', '188.166.18.140', 'C:/Users/Descartes/.ssh/id_rsa')
     .then( (ssh) => {
         return ssh.provision('test.sh')
     })
