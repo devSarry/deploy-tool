@@ -1,4 +1,5 @@
-"use strict"
+"use strict";
+
 import ErrorHandler from '../ErrorHandler'
 import node_ssh from 'node-ssh';
 import files from '../lib/files'
@@ -10,10 +11,16 @@ const isProvisionedPath = files.getCurrentDirectoryBase() + '/.provisioned';
 
 
 class SSH {
-    constructor(user, host, key) {
+
+    constructor(user, host, key, config = null) {
         this._host = host;
         this._user = user;
         this._key = key;
+
+        this._config = config;
+
+        this._workingDirectory = '/home/' + user + '/';
+
         return new Promise((resolve) => {
             this.checkConnection().then(value => {
                 console.log('connected')
@@ -69,14 +76,23 @@ class SSH {
         })
     }
 
-    provision(filePath) {
+    provision(file, path) {
+        let filePath = 'server/compiled/Provision/' + file;
+        let cleanFile = 'clean_' + file;
+        path = path ? path : this._workingDirectory;
+
+        console.log('the path is ' , path, filePath)
+
+
         return new Promise((resolve, error) =>{
+            ErrorHandler.instance.info('Provision file: ' + filePath);
             this.checkIfProvisioned()
                 .then(provisioned => {
                     if(!provisioned) {
-                        this.uploadScript(filePath, '/var/deployer/preCleaned')
+                        this.uploadScript(path, filePath, file)
                             .then((result) => {
-                                this.runProvision()
+                                console.log('upload script: ' + result)
+                                this.runProvision(path, file)
                                     .then((result) => {
                                         resolve(this)
                                     })
@@ -86,10 +102,10 @@ class SSH {
         })
     }
 
-    runProvision() {
-        return new Promise((resolve, error) => {
+    runProvision(cwd, cleanFile) {
+        return new Promise((resolve) => {
             console.log('run provision')
-            exec('cd /var/deployer && bash provision.sh', {
+            exec('cd ' + cwd + '&& bash ' + cleanFile, {
                     user: this._user,
                     host: this._host,
                     key: this._key
@@ -102,15 +118,25 @@ class SSH {
     }
 
 
-    uploadScript(filePath, remotePath) {
-        return ssh.putFile(filePath, remotePath)
+    uploadScript(cwd, filePath, file) {
+        filePath = files.getCurrentWorkingDirectory() + filePath;
+        let preCleanedFile = 'pre_cleaned_' + file;
+
+        cwd = cwd ? cwd : this._workingDirectory;
+
+        let preCleanedRemote = cwd + '/' + preCleanedFile;
+
+        console.log(filePath, cwd,preCleanedRemote, file)
+
+
+        return ssh.putFile(filePath, preCleanedRemote)
             .then(result => {
-                console.log('script uploaded');
-                ssh.execCommand("sed 's/\\r//' preCleaned > provision.sh", {cwd: '/var/deployer', stream: 'stdout'})
-                    .then(result => {
-                        ErrorHandler.instance.info('upload script', result);
-                    })
-            });
+                console.log('script ' + file + ' uploaded!!');
+                ErrorHandler.instance.info('script uploaded: ' + result);
+                ssh.execCommand("sed 's/\\r//' " + preCleanedFile + "> " +  file, {cwd: cwd, stream: 'stdout'});
+            }).catch(e => {
+                ErrorHandler.instance.error(e)
+            })
     }
 
     checkIfProvisioned() {
@@ -119,7 +145,7 @@ class SSH {
             .then(contents => {
                 console.log('server has been previously pro')
                 ErrorHandler.instance.info('Server has been previously provisioned' + contents);
-                files.removeFile(isProvisionedPath);
+                //files.removeFile(isProvisionedPath);
                 return (true);
             })
             .catch(notProvisionedError => {
@@ -128,19 +154,27 @@ class SSH {
             })
     }
 
-    createProject(domain) {
-        let bareDomain = domain.substr(0,a.length -4);
-
+    createProject(gitRepo, domain) {
         return new Promise((resolve, error)=> {
-            this.projectExists()
-                .then(response => {
-                    if(response){
-                        this.createProjectDir(bareDomain)
-                    }
-                })
+            ssh.execCommand('git clone ' + gitRepo + ' ' + domain +
+                ' && cd ' + domain +
+                ' && composer install && npm install' , {cwd: '/home/' + this._user})
+                resolve(this)
         })
     }
-    
+
+    deploySite(domain) {
+        let cwd = '/home/' + this._user +'/' + domain;
+        return new Promise((resolve, error) =>{
+            this.uploadScript(cwd,
+                'server/compiled/nginx_conf/serve-site.sh',
+                domain
+            ).then( res => {
+                ssh.execCommand('sudo bash serve-site', {cwd: cwd, stream: 'stdout'})
+            })
+            resolve(this)
+        })
+    }
     projectExists() {
         return new Promise((resolve, error) => {
             ssh.execCommand('ls -r /var/project/site.git/.project', {stream: 'both'})

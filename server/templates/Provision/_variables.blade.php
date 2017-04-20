@@ -12,7 +12,7 @@
 host_name="makkaraperuna"
 # user
 sudo_user="makkaraperuna"
-sudo_password="got2gofish" #will be encrypted using mkpasswd
+sudo_password="jAWR#UT-FrWzfY>*" #will be encrypted using mkpasswd
 
 # git config
 git_name="Jonathan Sarry"

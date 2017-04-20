@@ -36,6 +36,7 @@
     "node-ssh": "^4.0.1",
     "preferences": "^0.2.1",
     "simple-git": "^1.40.0",
+    "ssh-exec": "^2.0.0",
     "tap-spec": "^4.0.2",
     "tape": "^4.0.0",
     "touch": "^1.0.0",

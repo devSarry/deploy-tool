@@ -57,5 +57,9 @@ class config {
             resolve(this)
         })
     }
+
+    read() {
+        return JSON.parse(fs.readFileSync(this.fileName, 'utf8'));
+    }
 }
 export default config

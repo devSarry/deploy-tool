@@ -1,0 +1,23 @@
+{
+  "digital_ocean": {
+    "confirm": true,
+    "key": "aaaaaaaaaaaa"
+  },
+  "server": {
+    "confirm": false,
+    "user": "makkaraperuna",
+    "host": "107.170.32.140",
+    "key": "C:/Users/Euler/.ssh/id_rsa"
+  },
+  "project": {
+    "domain": "site.com",
+    "github_repo": "https://github.com/dopyoman/salonZax.git",
+    "root": "/home/makkaraperuna/site.com/",
+    "git_folder": "/home/user/site.git"
+  },
+  "provision": {
+    "confirm": true,
+    "script": "path",
+    "remote_working_dir": "path"
+  }
+}

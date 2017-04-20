@@ -2,9 +2,165 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e453878-548a-460c-acc2-3f4bf34186c9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SSH/api_example.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mute-stream/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/DB/_beanstalk.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/DB/_mariaDB.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/DB/_mariaSetup.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/DB/_postgres.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/DB/_postgresSetup.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/DB/_redis.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/_apt.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/_forgeEnv.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/_git.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/_variables.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/main.blade.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/nginx/_catchall.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/nginx/_disableDefault.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/nginx/_fastcgi.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/nginx/_restart.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/nginx/_setup.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/node/_setup.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/packages/_backfire.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/packages/_base.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/packages/_httpie.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/packages/_mailhog.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/php/_composer.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/php/_configurations.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/php/_fpmSettings.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/php/_restart.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/php/_setup.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/setup/_autoUpgrades.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/setup/_firewall.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/setup/_hostname.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/setup/_ssh.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/setup/_supervisor.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/setup/_timezone.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/Provision/setup/_user.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/templates/config.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.babelrc" afterPath="$PROJECT_DIR$/.babelrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file.log" afterPath="$PROJECT_DIR$/file.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/mime" afterPath="$PROJECT_DIR$/node_modules/.bin/mime" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/mkdirp" afterPath="$PROJECT_DIR$/node_modules/.bin/mkdirp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/nopt" afterPath="$PROJECT_DIR$/node_modules/.bin/nopt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/semver" afterPath="$PROJECT_DIR$/node_modules/.bin/semver" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/touch" afterPath="$PROJECT_DIR$/node_modules/.bin/touch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/abbrev/abbrev.js" afterPath="$PROJECT_DIR$/node_modules/abbrev/abbrev.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/abbrev/package.json" afterPath="$PROJECT_DIR$/node_modules/abbrev/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/agent-base/package.json" afterPath="$PROJECT_DIR$/node_modules/agent-base/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ansi-escapes/package.json" afterPath="$PROJECT_DIR$/node_modules/ansi-escapes/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ansi-regex/package.json" afterPath="$PROJECT_DIR$/node_modules/ansi-regex/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ansi-styles/package.json" afterPath="$PROJECT_DIR$/node_modules/ansi-styles/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/asn1/package.json" afterPath="$PROJECT_DIR$/node_modules/asn1/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/buffer-shims/package.json" afterPath="$PROJECT_DIR$/node_modules/buffer-shims/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chalk/package.json" afterPath="$PROJECT_DIR$/node_modules/chalk/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clear/package.json" afterPath="$PROJECT_DIR$/node_modules/clear/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cli-color/package.json" afterPath="$PROJECT_DIR$/node_modules/cli-color/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cli-cursor/package.json" afterPath="$PROJECT_DIR$/node_modules/cli-cursor/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cli-width/package.json" afterPath="$PROJECT_DIR$/node_modules/cli-width/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clui/package.json" afterPath="$PROJECT_DIR$/node_modules/clui/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/code-point-at/package.json" afterPath="$PROJECT_DIR$/node_modules/code-point-at/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/concat-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/concat-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/core-util-is/package.json" afterPath="$PROJECT_DIR$/node_modules/core-util-is/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/d/package.json" afterPath="$PROJECT_DIR$/node_modules/d/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/debug/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/debug/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/debug/Makefile" afterPath="$PROJECT_DIR$/node_modules/debug/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/debug/component.json" afterPath="$PROJECT_DIR$/node_modules/debug/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/node_modules/debug/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/debug/src/debug.js" afterPath="$PROJECT_DIR$/node_modules/debug/src/debug.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/debug/src/node.js" afterPath="$PROJECT_DIR$/node_modules/debug/src/node.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es5-ext/package.json" afterPath="$PROJECT_DIR$/node_modules/es5-ext/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-iterator/package.json" afterPath="$PROJECT_DIR$/node_modules/es6-iterator/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-symbol/package.json" afterPath="$PROJECT_DIR$/node_modules/es6-symbol/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-weak-map/node_modules/es6-iterator/package.json" afterPath="$PROJECT_DIR$/node_modules/es6-weak-map/node_modules/es6-iterator/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-weak-map/node_modules/es6-symbol/package.json" afterPath="$PROJECT_DIR$/node_modules/es6-weak-map/node_modules/es6-symbol/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-weak-map/package.json" afterPath="$PROJECT_DIR$/node_modules/es6-weak-map/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/escape-string-regexp/package.json" afterPath="$PROJECT_DIR$/node_modules/escape-string-regexp/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/event-emitter/package.json" afterPath="$PROJECT_DIR$/node_modules/event-emitter/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/exit-hook/package.json" afterPath="$PROJECT_DIR$/node_modules/exit-hook/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/extend/package.json" afterPath="$PROJECT_DIR$/node_modules/extend/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/external-editor/package.json" afterPath="$PROJECT_DIR$/node_modules/external-editor/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/figlet/package.json" afterPath="$PROJECT_DIR$/node_modules/figlet/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/figures/package.json" afterPath="$PROJECT_DIR$/node_modules/figures/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/follow-redirects/package.json" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/github/package.json" afterPath="$PROJECT_DIR$/node_modules/github/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/graceful-fs/package.json" afterPath="$PROJECT_DIR$/node_modules/graceful-fs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-ansi/package.json" afterPath="$PROJECT_DIR$/node_modules/has-ansi/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/https-proxy-agent/package.json" afterPath="$PROJECT_DIR$/node_modules/https-proxy-agent/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/imurmurhash/package.json" afterPath="$PROJECT_DIR$/node_modules/imurmurhash/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/inherits/package.json" afterPath="$PROJECT_DIR$/node_modules/inherits/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/inquirer/package.json" afterPath="$PROJECT_DIR$/node_modules/inquirer/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/package.json" afterPath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-promise/package.json" afterPath="$PROJECT_DIR$/node_modules/is-promise/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/node_modules/isarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/node_modules/lodash/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lru-queue/package.json" afterPath="$PROJECT_DIR$/node_modules/lru-queue/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/memoizee/package.json" afterPath="$PROJECT_DIR$/node_modules/memoizee/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mime/package.json" afterPath="$PROJECT_DIR$/node_modules/mime/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/minimist/package.json" afterPath="$PROJECT_DIR$/node_modules/minimist/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mkdirp/node_modules/minimist/package.json" afterPath="$PROJECT_DIR$/node_modules/mkdirp/node_modules/minimist/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mkdirp/package.json" afterPath="$PROJECT_DIR$/node_modules/mkdirp/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ms/package.json" afterPath="$PROJECT_DIR$/node_modules/ms/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mute-stream/mute.js" afterPath="$PROJECT_DIR$/node_modules/mute-stream/mute.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mute-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/mute-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/next-tick/package.json" afterPath="$PROJECT_DIR$/node_modules/next-tick/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-ssh/package.json" afterPath="$PROJECT_DIR$/node_modules/node-ssh/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nopt/package.json" afterPath="$PROJECT_DIR$/node_modules/nopt/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/number-is-nan/package.json" afterPath="$PROJECT_DIR$/node_modules/number-is-nan/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/object-assign/package.json" afterPath="$PROJECT_DIR$/node_modules/object-assign/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/onetime/package.json" afterPath="$PROJECT_DIR$/node_modules/onetime/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/os-homedir/package.json" afterPath="$PROJECT_DIR$/node_modules/os-homedir/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/os-shim/package.json" afterPath="$PROJECT_DIR$/node_modules/os-shim/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/os-tmpdir/package.json" afterPath="$PROJECT_DIR$/node_modules/os-tmpdir/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pinkie-promise/package.json" afterPath="$PROJECT_DIR$/node_modules/pinkie-promise/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pinkie/package.json" afterPath="$PROJECT_DIR$/node_modules/pinkie/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/preferences/package.json" afterPath="$PROJECT_DIR$/node_modules/preferences/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/process-nextick-args/package.json" afterPath="$PROJECT_DIR$/node_modules/process-nextick-args/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/LICENSE" afterPath="$PROJECT_DIR$/node_modules/readable-stream/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/README.md" afterPath="$PROJECT_DIR$/node_modules/readable-stream/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/restore-cursor/package.json" afterPath="$PROJECT_DIR$/node_modules/restore-cursor/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/run-async/README.md" afterPath="$PROJECT_DIR$/node_modules/run-async/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/run-async/index.js" afterPath="$PROJECT_DIR$/node_modules/run-async/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/run-async/package.json" afterPath="$PROJECT_DIR$/node_modules/run-async/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rx/package.json" afterPath="$PROJECT_DIR$/node_modules/rx/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sb-promisify/package.json" afterPath="$PROJECT_DIR$/node_modules/sb-promisify/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sb-scandir/node_modules/sb-promisify/package.json" afterPath="$PROJECT_DIR$/node_modules/sb-scandir/node_modules/sb-promisify/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sb-scandir/package.json" afterPath="$PROJECT_DIR$/node_modules/sb-scandir/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/semver/package.json" afterPath="$PROJECT_DIR$/node_modules/semver/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/shell-escape/package.json" afterPath="$PROJECT_DIR$/node_modules/shell-escape/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/simple-git/package.json" afterPath="$PROJECT_DIR$/node_modules/simple-git/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/simple-git/src/git.js" afterPath="$PROJECT_DIR$/node_modules/simple-git/src/git.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/simple-git/test/unit/include/setup.js" afterPath="$PROJECT_DIR$/node_modules/simple-git/test/unit/include/setup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/simple-git/test/unit/test-commands.js" afterPath="$PROJECT_DIR$/node_modules/simple-git/test/unit/test-commands.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/slide/package.json" afterPath="$PROJECT_DIR$/node_modules/slide/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/spawn-sync/package.json" afterPath="$PROJECT_DIR$/node_modules/spawn-sync/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/node_modules/.bin/semver" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/node_modules/.bin/semver" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/node_modules/semver/package.json" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/node_modules/semver/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ssh2-streams/package.json" afterPath="$PROJECT_DIR$/node_modules/ssh2-streams/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ssh2/package.json" afterPath="$PROJECT_DIR$/node_modules/ssh2/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stream-consume/package.json" afterPath="$PROJECT_DIR$/node_modules/stream-consume/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/streamsearch/package.json" afterPath="$PROJECT_DIR$/node_modules/streamsearch/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/string-width/package.json" afterPath="$PROJECT_DIR$/node_modules/string-width/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/string_decoder/package.json" afterPath="$PROJECT_DIR$/node_modules/string_decoder/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/strip-ansi/package.json" afterPath="$PROJECT_DIR$/node_modules/strip-ansi/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/supports-color/package.json" afterPath="$PROJECT_DIR$/node_modules/supports-color/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/through/package.json" afterPath="$PROJECT_DIR$/node_modules/through/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/timers-ext/package.json" afterPath="$PROJECT_DIR$/node_modules/timers-ext/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tmp/package.json" afterPath="$PROJECT_DIR$/node_modules/tmp/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/touch/package.json" afterPath="$PROJECT_DIR$/node_modules/touch/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typedarray/package.json" afterPath="$PROJECT_DIR$/node_modules/typedarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/util-deprecate/package.json" afterPath="$PROJECT_DIR$/node_modules/util-deprecate/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/write-file-atomic/package.json" afterPath="$PROJECT_DIR$/node_modules/write-file-atomic/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SSH/ssh-exec.js" afterPath="$PROJECT_DIR$/src/SSH/ssh-exec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/config/index.js" afterPath="$PROJECT_DIR$/src/config/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
     </list>
     <ignored path="deploy-tool.iws" />
@@ -17,7 +173,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -27,23 +182,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SSH/index.js">
+      <file leaf-file-name="serve-site.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/compiled/nginx_conf/serve-site.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2520">
-              <caret line="74" column="56" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
-              <folding>
-                <element signature="e#15#57#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1660">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Queue.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SSH/Queue.js">
+      <file leaf-file-name="serve-site.blade.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/templates/nginx_conf/serve-site.blade.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="630">
+              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_variables.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/templates/Provision/_variables.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -52,83 +215,80 @@
       <file leaf-file-name="ssh-exec.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SSH/ssh-exec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5005">
-              <caret line="177" column="5" selection-start-line="177" selection-start-column="5" selection-end-line="177" selection-end-column="5" />
+            <state relative-caret-position="349">
+              <caret line="122" column="51" selection-start-line="122" selection-start-column="51" selection-end-line="122" selection-end-column="51" />
               <folding>
-                <element signature="e#13#55#0" expanded="true" />
-                <element signature="n#!!block;n#checkConnection#0;n#SSH#0" expanded="false" />
+                <element signature="e#15#57#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="file.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/file.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gitPost.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gitPost.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="25" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-              <folding>
-                <element signature="e#66#97#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EcmaScript5.js" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+            <state relative-caret-position="811">
+              <caret line="126" column="39" selection-start-line="126" selection-start-column="39" selection-end-line="126" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/commander/index.js">
+        <entry file="file://$PROJECT_DIR$/node_modules/ssh-exec/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="157" column="0" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+            <state relative-caret-position="298">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api_example.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SSH/api_example.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+            <state relative-caret-position="594">
+              <caret line="165" column="30" selection-start-line="165" selection-start-column="30" selection-end-line="165" selection-end-column="30" />
+              <folding>
+                <element signature="e#66#97#0" expanded="true" />
+                <marker date="1492647092210" expanded="false" signature="342:2365" ph="[...]" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ssh-exec.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/SSH/ssh-exec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3186">
+              <caret line="84" column="0" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="43" />
+              <folding>
+                <marker date="1492648593081" expanded="true" signature="3790:3851" ph="{...}" />
+                <marker date="1492648593081" expanded="true" signature="5527:6233" ph="{...}" />
+                <marker date="1492648593081" expanded="true" signature="5851:6127" ph="{...}" />
+                <marker date="1492648593081" expanded="true" signature="6091:6127" ph="{...}" />
+                <marker date="1492648593081" expanded="true" signature="6148:6221" ph="{...}" />
+                <marker date="1492648593081" expanded="true" signature="9445:9457" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/compiled/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -142,22 +302,36 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dist/index.js" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/src/ErrorHandler/index.js" />
-        <option value="$PROJECT_DIR$/src/lib/files.js" />
         <option value="$PROJECT_DIR$/dist/SSH/index.js" />
         <option value="$PROJECT_DIR$/src/SSH/Queue.js" />
         <option value="$PROJECT_DIR$/test.sh" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/SSH/index.js" />
-        <option value="$PROJECT_DIR$/file.log" />
-        <option value="$PROJECT_DIR$/gitPost.sh" />
-        <option value="$PROJECT_DIR$/src/SSH/ssh-exec.js" />
+        <option value="$PROJECT_DIR$/dist/lib/files.js" />
+        <option value="$PROJECT_DIR$/dist/ErrorHandler/index.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/lib/files.js" />
+        <option value="$PROJECT_DIR$/configs.json" />
+        <option value="$PROJECT_DIR$/dist/config/index.js" />
+        <option value="$PROJECT_DIR$/.babelrc" />
+        <option value="$PROJECT_DIR$/configuration.json" />
+        <option value="$PROJECT_DIR$/src/config/api_example.js" />
         <option value="$PROJECT_DIR$/src/SSH/api_example.js" />
+        <option value="$PROJECT_DIR$/server/templates/Provision/_variables.blade.php" />
+        <option value="$PROJECT_DIR$/gitPost.sh" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/dist/index.js" />
+        <option value="$PROJECT_DIR$/src/SSH/index.js" />
+        <option value="$PROJECT_DIR$/src/config/index.js" />
+        <option value="$PROJECT_DIR$/dist/SSH/ssh-exec.js" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/server/templates/nginx_conf/serve-site.blade.sh" />
+        <option value="$PROJECT_DIR$/server/templates/config.php" />
         <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/config.json" />
+        <option value="$PROJECT_DIR$/file.log" />
+        <option value="$PROJECT_DIR$/src/SSH/ssh-exec.js" />
       </list>
     </option>
   </component>
@@ -169,6 +343,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="PhpServers">
     <servers />
   </component>
@@ -176,8 +353,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -204,6 +381,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -232,7 +411,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="server" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -246,25 +425,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="server" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SSH" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deploy-tool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deploy-tool" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
+              <option name="myItemId" value="compiled" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -278,41 +443,27 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
+              <option name="myItemId" value="server" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SSH" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deploy-tool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deploy-tool" />
+              <option name="myItemId" value="compiled" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ErrorHandler" />
+              <option name="myItemId" value="nginx_conf" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jigsaw" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -320,7 +471,21 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -350,6 +515,19 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -367,18 +545,22 @@
       <workItem from="1485859254548" duration="797000" />
       <workItem from="1485872076267" duration="99143000" />
       <workItem from="1487663915595" duration="3265000" />
+      <workItem from="1487762282483" duration="21634000" />
+      <workItem from="1489502243025" duration="1790000" />
+      <workItem from="1491466936974" duration="605000" />
+      <workItem from="1492169319129" duration="50175000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103205000" />
+    <option name="totallyTimeSpent" value="177409000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="GfmBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1925" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19936034" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -416,208 +598,273 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SSH/index.js">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="74" column="56" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
-          <folding>
-            <element signature="e#15#57#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="6055">
+          <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SSH/Queue.js">
+    <entry file="file://$PROJECT_DIR$/dist/lib/files.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="769">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SSH/ssh-exec.js">
+    <entry file="file://$PROJECT_DIR$/dist/ErrorHandler/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5005">
-          <caret line="177" column="5" selection-start-line="177" selection-start-column="5" selection-end-line="177" selection-end-column="5" />
-          <folding>
-            <element signature="e#13#55#0" expanded="true" />
-            <element signature="n#!!block;n#checkConnection#0;n#SSH#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="49">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        <state relative-caret-position="35">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.zuul.yml">
+    <entry file="file://$PROJECT_DIR$/node_modules/for-each/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/config/api_example.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/templates/Provision/nginx/_setup.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/templates/Provision/setup/_hostname.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/templates/Provision/setup/_user.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/templates/Provision/main.blade.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="Gfm">
+        <state />
+      </provider>
+      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="245">
+            <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/github/doc/apidoc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34669">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-35">
+          <caret line="110" column="67" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+          <folding>
+            <marker date="1492648592845" expanded="true" signature="2980:3039" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/SSH/Queue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/SSH/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5425">
+          <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+          <folding>
+            <marker date="1492648592969" expanded="true" signature="9125:9142" ph="[...]" />
+            <marker date="1492648592969" expanded="true" signature="9125:9163" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/node-ssh/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/babel-cli/lib/_babel-node.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="823">
+          <caret line="116" column="2" selection-start-line="116" selection-start-column="2" selection-end-line="116" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ErrorHandler/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forge.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gitPost.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="560">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="25" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <element signature="e#66#97#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/commander/index.js">
+    <entry file="file://$PROJECT_DIR$/server/templates/Provision/_forgeEnv.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/templates/Provision/_git.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/templates/Provision/_apt.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/api_example.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SSH/api_example.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        <state relative-caret-position="420">
+          <caret line="24" column="66" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="210">
-            <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.README.md" />
-    <entry file="file://$PROJECT_DIR$/.babelrc">
+    <entry file="file://$PROJECT_DIR$/src/config/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/file.log" />
-    <entry file="file://$PROJECT_DIR$/dist/ErrorHandler/file.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/ErrorHandler/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/SSH/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/files.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="86" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ErrorHandler/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forge.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="Gfm">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="245">
-            <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12320">
-          <caret line="356" column="0" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
+        <state relative-caret-position="518">
+          <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -625,17 +872,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+    <entry file="file://$PROJECT_DIR$/src/SSH/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="887" column="0" selection-start-line="887" selection-start-column="0" selection-end-line="887" selection-end-column="0" />
+        <state relative-caret-position="4060">
+          <caret line="116" column="19" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="19" />
+          <folding>
+            <element signature="e#15#57#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.zuul.yml">
+    <entry file="file://$PROJECT_DIR$/src/lib/files.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/compiled/Provision/main.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -643,35 +902,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gitPost.sh">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="651">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SSH/index.js">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_7.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="74" column="56" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
+        <state relative-caret-position="298">
+          <caret line="322" column="9" selection-start-line="322" selection-start-column="9" selection-end-line="322" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/templates/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/SSH/ssh-exec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3186">
+          <caret line="84" column="0" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="43" />
           <folding>
-            <element signature="e#15#57#0" expanded="true" />
+            <marker date="1492648593081" expanded="true" signature="3790:3851" ph="{...}" />
+            <marker date="1492648593081" expanded="true" signature="5527:6233" ph="{...}" />
+            <marker date="1492648593081" expanded="true" signature="5851:6127" ph="{...}" />
+            <marker date="1492648593081" expanded="true" signature="6091:6127" ph="{...}" />
+            <marker date="1492648593081" expanded="true" signature="6148:6221" ph="{...}" />
+            <marker date="1492648593081" expanded="true" signature="9445:9457" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SSH/Queue.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/ssh-exec/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
+        <state relative-caret-position="298">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/compiled/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="165" column="30" selection-start-line="165" selection-start-column="30" selection-end-line="165" selection-end-column="30" />
+          <folding>
+            <element signature="e#66#97#0" expanded="true" />
+            <marker date="1492647092210" expanded="false" signature="342:2365" ph="[...]" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/templates/nginx_conf/serve-site.blade.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="811">
+          <caret line="126" column="39" selection-start-line="126" selection-start-column="39" selection-end-line="126" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/compiled/nginx_conf/serve-site.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1660">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
@@ -679,54 +1002,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SSH/ssh-exec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5005">
-          <caret line="177" column="5" selection-start-line="177" selection-start-column="5" selection-end-line="177" selection-end-column="5" />
+        <state relative-caret-position="349">
+          <caret line="122" column="51" selection-start-line="122" selection-start-column="51" selection-end-line="122" selection-end-column="51" />
           <folding>
-            <element signature="e#13#55#0" expanded="true" />
-            <element signature="n#!!block;n#checkConnection#0;n#SSH#0" expanded="false" />
+            <element signature="e#15#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SSH/api_example.js">
+    <entry file="file://$PROJECT_DIR$/config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        <state relative-caret-position="245">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/server/templates/Provision/_variables.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="25" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="370">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="31" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/commander/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="157" column="0" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-          <folding>
-            <element signature="e#66#97#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

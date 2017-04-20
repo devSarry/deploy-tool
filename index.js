@@ -12,6 +12,7 @@ var _           = require('lodash');
 var git         = require('simple-git')();
 var touch       = require('touch');
 var fs          = require('fs');
+var ssh         = require('./dist/SSH')
 
 
 
@@ -74,17 +75,17 @@ function getGithubCredentials(callback) {
 
 
 
-ssh.connect({
-  host: '198.211.124.95',
-  username: 'makkaraperuna',
-  privateKey: '/home/jonathan/.ssh/id_rsa'
-}).then(function() {
-  // Local, Remote
-	ssh.exec('pwd').then(function(result) {
-    console.log('STDOUT: ' + result)
-    ssh.dispose();
-  })
-})
+// ssh.connect({
+//   host: '198.211.124.95',
+//   username: 'makkaraperuna',
+//   privateKey: '/home/jonathan/.ssh/id_rsa'
+// }).then(function() {
+//   // Local, Remote
+// 	ssh.exec('pwd').then(function(result) {
+//     console.log('STDOUT: ' + result)
+//     ssh.dispose();
+//   })
+// })
 function getGithubToken(callback) {
   var prefs = new Preferences('ginit');
 
@@ -105,7 +106,7 @@ function getGithubToken(callback) {
       )
     );
 
-    github.authorization.create({
+    github.authorization({
       scopes: ['user', 'public_repo', 'repo', 'repo:status'],
       note: 'ginit, the command-line tool for initalizing Git repos'
     }, function(err, res) {
@@ -115,7 +116,7 @@ function getGithubToken(callback) {
       }
       if (res.token) {
         prefs.github = {
-          token : res.token
+          token : res.token,
         };
         return callback(null, res.token);
       }
